@@ -1,4 +1,4 @@
-update=Sat 04 Mar 2017 01:56:25 PM MST
+update=Sat 04 Mar 2017 02:45:01 PM MST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=li_ion_charge_library/li_ion_charge
