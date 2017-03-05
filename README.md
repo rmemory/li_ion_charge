@@ -26,6 +26,24 @@ The "typical application" circuit provided on the data sheet will provide the co
 
 A regulated current of 500 mA will be used, and thus according to the equation Ireg = 1000V/Rprog, a value of 2k ohms for the Rprog will be used.
 
+A standard USB Type A connector will be used. 
+
+General KiCad Workflow notes:
+
+* Add parts to project specific library as needed
+
+* Draw schematic, with values
+
+* Annotate schematic
+
+* Run ERC, address any critical errors
+
+* Generate netlist
+
+* Run CvPcb to associate parts in schematic with footprints, creating footprints where necessary
+
+
+
 A slightly larger 4.7 uF capacitor, with a 1206 foot print will be used. 4.7 uF are available in an 0805 size, but they tend to be more expensive and more difficuclt to find.
 
 The overheating feature will not be used, and thus the thermistor will be replaced by a fixed 10k value.
