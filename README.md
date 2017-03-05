@@ -19,3 +19,10 @@ Its benefits include the following:
 * Preconditioning of a deeply discharged battery is another nice feature to prevent overheating (and fire!) of the battery during recharge. If a Li-ion battery is deeply discharged (for example, to below 3 V) a small “pre-conditioning” charge of around 10% of the full-charge current is applied. This prevents the cell from overheating until such a time that it is able to accept the full current of the constant-current phase. In reality, this phase is rarely needed because most modern mobile devices are designed to shut down while there’s still some charge left because deep discharge, like overcharging, can damage the cell. With that said, note the external heat sensing thermistor is not used in this design.
 
 * The application circuit specified in the data sheet is simple.
+
+Circut design notes:
+
+The "typical application" circuit provided on the data sheet will provide the core of the circuit design.
+
+A slightly larger 4.7 uF capacitor, with a 1206 foot print will be used. 4.7 uF are available in an 0805 size, but they tend to be more expensive and more difficuclt to find.
+
