@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:li_ion_charge
+LIBS:li_ion_charge-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -170,7 +171,7 @@ U 1 1 58BC886E
 P 7700 3400
 F 0 "P103" H 7700 3550 50  0000 C CNN
 F 1 "CONN_01X02" V 7800 3400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.00mm" H 7700 3400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7700 3400 50  0001 C CNN
 F 3 "" H 7700 3400 50  0000 C CNN
 	1    7700 3400
 	1    0    0    -1  
@@ -236,7 +237,7 @@ U 1 1 58BC9367
 P 4950 4800
 F 0 "P102" H 4950 4950 50  0000 C CNN
 F 1 "CONN_01X02" V 5050 4800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.00mm" H 4950 4800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4950 4800 50  0001 C CNN
 F 3 "" H 4950 4800 50  0000 C CNN
 	1    4950 4800
 	1    0    0    -1  
