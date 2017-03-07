@@ -2,7 +2,7 @@ This repo contains the schematic and PCB layout for a battery charge controller 
 
 The intent of this board is to provide a simple controller to connect a USB port to a discrete single cell recharagable Lithum Ion battery. The USB port will be used to provide power input only (~4.5v), and consequently the USB data port will not be used. This board will also be capable of providing power to a CPU board (3.3V). 
 
-The charge controller chip selected for this board is the Microchip MCP73834. 
+The charge controller chip selected for this board is the Microchip MCP73834. The 834 has been selected due to the optional timer functionality over the 833. The timer provides some protection to no unmonitored, unattended charging over a long period of time.
 
 http://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf
 
@@ -38,6 +38,10 @@ A regulated current of 500 mA will be used, and thus according to the equation I
 
 A standard USB Type A connector will be used. 
 
+A slightly larger 4.7 uF capacitor, with a 1206 foot print will be used to accomodate for the 500 mA charging current. The 4.7 uF caps are available in an 0805 size, but they tend to be more expensive and more difficuclt to find.
+
+An optional jumper or button to the Prog pin to reset the device will not be used.
+
 General KiCad Workflow notes:
 =============================
 
@@ -57,7 +61,5 @@ General KiCad Workflow notes:
   * Read current net list
   * Mode Footprint button selected (third from the right in the top bar). Then right click on the stack of footprints and select "Glob Move and Place->Move All modules"
 
-
-A slightly larger 4.7 uF capacitor, with a 1206 foot print will be used. 4.7 uF are available in an 0805 size, but they tend to be more expensive and more difficuclt to find.
 
 The overheating feature will not be used, and thus the thermistor will be replaced by a fixed 10k value.
