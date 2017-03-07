@@ -20,6 +20,8 @@ Its benefits include the following:
 
 * The application circuit specified in the data sheet is simple.
 
+* The MSOP 10 package will be used to allow for hand soldering.
+
 Circut design notes:
 
 The "typical application" circuit provided on the data sheet will provide the core of the circuit design.
@@ -42,6 +44,9 @@ General KiCad Workflow notes:
 
 * Run CvPcb to associate parts in schematic with footprints, creating footprints where necessary
 
+* PCBNew for layout
+  * Read current net list
+  * Mode Footprint button selected (third from the right in the top bar). Then right click on the stack of footprints and select "Glob Move and Place->Move All modules"
 
 
 A slightly larger 4.7 uF capacitor, with a 1206 foot print will be used. 4.7 uF are available in an 0805 size, but they tend to be more expensive and more difficuclt to find.
