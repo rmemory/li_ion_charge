@@ -29,7 +29,7 @@ A designer's guide to lithium battery charging can be found here:
 https://www.digikey.com/en/articles/techzone/2016/sep/a-designer-guide-fast-lithium-ion-battery-charging
 
 
-*Circut design notes:*
+Circut design notes:
 ======================
 
 The "typical application" circuit provided on the data sheet will provide the core of the circuit design.
@@ -40,7 +40,7 @@ A standard USB Type A connector will be used.
 
 A slightly larger 4.7 uF capacitor, with a 1206 foot print will be used to accomodate for the 500 mA charging current. The 4.7 uF caps are available in an 0805 size, but they tend to be more expensive and more difficuclt to find.
 
-An optional jumper or button to the Prog pin to reset the device will not be used.
+Rudimentary reset functionality will be provided via a jumper.
 
 General KiCad Workflow notes:
 =============================
