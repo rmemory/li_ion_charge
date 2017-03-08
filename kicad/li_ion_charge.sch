@@ -369,4 +369,20 @@ Connection ~ 3750 2800
 Wire Wire Line
 	3300 3050 3300 2800
 Connection ~ 3300 2800
+Text Label 6850 3350 0    60   ~ 0
+VBAT
+Text Label 4700 3350 0    60   ~ 0
+VIN
+Text Label 4650 4700 1    60   ~ 0
+RESET
+Text Label 5300 4300 0    60   ~ 0
+~TE
+Text Label 6350 3750 0    60   ~ 0
+Ther
+Text Label 6350 3950 0    60   ~ 0
+Prog
+Text Label 5150 3750 0    60   ~ 0
+Stat1
+Text Label 5150 3950 0    60   ~ 0
+Stat2
 $EndSCHEMATC
