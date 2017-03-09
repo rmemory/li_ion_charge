@@ -194,7 +194,8 @@ P 3000 3150
 F 0 "P101" V 2700 3150 50  0000 C CNN
 F 1 "USB_A" H 2950 3350 50  0000 C CNN
 F 2 "Connect:USB_A" V 2950 3050 50  0001 C CNN
-F 3 "" V 2950 3050 50  0000 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf" V 2950 3050 50  0001 C CNN
+F 4 "10118193-0001LF" V 3000 3150 60  0001 C CNN "MPN"
 	1    3000 3150
 	0    -1   -1   0   
 $EndComp
