@@ -369,13 +369,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 4000 3150 3750
 Wire Wire Line
-	2750 4000 3150 4000
-Wire Wire Line
 	2750 3950 2750 4250
-Connection ~ 2750 4000
 Wire Wire Line
 	2850 3950 2850 4000
-Connection ~ 2850 4000
 $Comp
 L GND #PWR04
 U 1 1 58C427E6
@@ -394,4 +390,18 @@ Wire Wire Line
 Wire Wire Line
 	3300 4200 3300 4250
 Connection ~ 3300 4250
+$Comp
+L R R109
+U 1 1 58C58F65
+P 3000 4000
+F 0 "R109" V 3080 4000 50  0000 C CNN
+F 1 "NOPOP" V 3000 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2930 4000 50  0001 C CNN
+F 3 "" H 3000 4000 50  0000 C CNN
+	1    3000 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 4000 2750 4000
+Connection ~ 2750 4000
 $EndSCHEMATC
