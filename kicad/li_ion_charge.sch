@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:li_ion_charge-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,10 +35,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Single cell lithium ion battery charger using USB"
 Date ""
 Rev ""
-Comp ""
+Comp "Richard Memory"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -194,7 +193,7 @@ U 1 1 58BC8AC7
 P 2850 3550
 F 0 "P101" V 2600 3550 50  0000 C CNN
 F 1 "USB_B" H 2850 3900 50  0000 C CNN
-F 2 "li_ion_charge_library:USB_Micro-B" V 2800 3450 50  0001 C CNN
+F 2 "li_ion_charge_library:USB_Micro-B_10118193-0001LF" V 2800 3450 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf" V 2800 3450 50  0001 C CNN
 F 4 "10118193-0001LF" V 2850 3550 60  0001 C CNN "MPN"
 	1    2850 3550

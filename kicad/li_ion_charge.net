@@ -1,12 +1,12 @@
 (export (version D)
   (design
     (source /home/rmemory/Documents/contextual/li_ion_charge/kicad/li_ion_charge.sch)
-    (date "Sat 11 Mar 2017 08:32:09 PM MST")
+    (date "Sun 12 Mar 2017 11:50:23 AM MDT")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title)
-        (company)
+        (title "Single cell lithium ion battery charger using USB")
+        (company "Richard Memory")
         (rev)
         (date)
         (source li_ion_charge.sch)
@@ -89,7 +89,7 @@
       (tstamp 58BC8A3D))
     (comp (ref P101)
       (value USB_B)
-      (footprint li_ion_charge_library:USB_Micro-B)
+      (footprint li_ion_charge_library:USB_Micro-B_10118193-0001LF)
       (datasheet http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf)
       (fields
         (field (name MPN) 10118193-0001LF))
@@ -195,12 +195,12 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name Shield) (type passive)))))
   (libraries
-    (library (logical li_ion_charge)
-      (uri /home/rmemory/Documents/contextual/li_ion_charge/kicad/li_ion_charge_library/li_ion_charge.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+    (library (logical li_ion_charge)
+      (uri /home/rmemory/Documents/contextual/li_ion_charge/kicad/li_ion_charge_library/li_ion_charge.lib)))
   (nets
     (net (code 1) (name /Prog)
       (node (ref R106) (pin 2))
