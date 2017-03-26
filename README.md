@@ -65,3 +65,8 @@ General KiCad Workflow notes:
 
 
 The overheating feature will not be used, and thus the thermistor will be replaced by a fixed 10k value.
+
+BOM Generation notes:
+=====================
+
+http://og2k.com/content/how-generate-bill-materials-bom-kicad
