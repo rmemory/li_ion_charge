@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/rmemory/Documents/contextual/li_ion_charge/kicad/li_ion_charge.sch</source>
+    <date>Sun 26 Mar 2017 07:23:22 PM MDT</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Single cell lithium ion battery charger using USB</title>
+        <company>Richard Memory</company>
+        <rev/>
+        <date/>
+        <source>li_ion_charge.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D103">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-S220GKT.pdf</datasheet>
+      <fields>
+        <field name="MPN">LTST-S220GKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC7977</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>NOPOP</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC79E4</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-S220GKT.pdf</datasheet>
+      <fields>
+        <field name="MPN">LTST-S220GKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC7A05</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="MPN">RMCF0805JT470R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC7A25</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC7BDA</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="MPN">RMCF0805JT470R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC7DA0</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>MCP73834</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf</datasheet>
+      <fields>
+        <field name="MPN">MCP73834-FCI/UN</field>
+      </fields>
+      <libsource lib="li_ion_charge" part="MCP73834-FCI/UN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC819D</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="MPN">ERJ-6ENF2001V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC8247</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC82AB</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf</datasheet>
+      <fields>
+        <field name="MPN">LMK316B7475KL-T</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC8729</tstamp>
+    </comp>
+    <comp ref="P103">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm</footprint>
+      <fields>
+        <field name="MPN">M20-9990246</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC886E</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf</datasheet>
+      <fields>
+        <field name="MPN">LMK316B7475KL-T</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC8A3D</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>USB_B</value>
+      <footprint>li_ion_charge_library:USB_Micro-B_10118193-0001LF</footprint>
+      <datasheet>http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf</datasheet>
+      <fields>
+        <field name="MPN">10118193-0001LF</field>
+      </fields>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC8AC7</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="MPN">RC0805JR-071KL</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC907B</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <fields>
+        <field name="MPN">M20-9990246</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC9367</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC9A0D</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC9A97</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58C58F65</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>CONN_01X02</value>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</datasheet>
+      <fields>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D86672</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="li_ion_charge" part="MCP73834-FCI/UN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73834-FCI/UN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="Vdd" type="power_in"/>
+        <pin num="3" name="Stat1" type="input"/>
+        <pin num="4" name="Stat2" type="input"/>
+        <pin num="5" name="Vss" type="power_in"/>
+        <pin num="6" name="Prog" type="input"/>
+        <pin num="7" name="~TE" type="input"/>
+        <pin num="8" name="Therm" type="power_out"/>
+        <pin num="9" name="Vbat" type="power_out"/>
+        <pin num="10" name="Vbat" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>USB mini/micro connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="li_ion_charge">
+      <uri>/home/rmemory/Documents/contextual/li_ion_charge/kicad/li_ion_charge_library/li_ion_charge.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Prog">
+      <node ref="R106" pin="2"/>
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="2" name="/Ther">
+      <node ref="R105" pin="2"/>
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="3" name="Net-(P101-Pad2)">
+      <node ref="P101" pin="2"/>
+      <node ref="R107" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J101-Pad2)">
+      <node ref="J101" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J101-Pad1)">
+      <node ref="J101" pin="1"/>
+    </net>
+    <net code="6" name="Net-(P101-Pad4)">
+      <node ref="R109" pin="2"/>
+      <node ref="P101" pin="4"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="R109" pin="1"/>
+      <node ref="P101" pin="5"/>
+      <node ref="P101" pin="6"/>
+      <node ref="U101" pin="5"/>
+      <node ref="R107" pin="1"/>
+      <node ref="C102" pin="2"/>
+      <node ref="R105" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="C101" pin="2"/>
+      <node ref="R108" pin="1"/>
+      <node ref="P102" pin="2"/>
+      <node ref="P103" pin="2"/>
+    </net>
+    <net code="8" name="Net-(P101-Pad3)">
+      <node ref="P101" pin="3"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="9" name="/RESET">
+      <node ref="R104" pin="2"/>
+      <node ref="P102" pin="1"/>
+    </net>
+    <net code="10" name="/VBAT">
+      <node ref="U101" pin="9"/>
+      <node ref="C102" pin="1"/>
+      <node ref="P103" pin="1"/>
+      <node ref="U101" pin="10"/>
+    </net>
+    <net code="11" name="Net-(D103-Pad1)">
+      <node ref="R101" pin="2"/>
+      <node ref="D103" pin="1"/>
+    </net>
+    <net code="12" name="/Stat1">
+      <node ref="R101" pin="1"/>
+      <node ref="U101" pin="3"/>
+    </net>
+    <net code="13" name="Net-(D101-Pad1)">
+      <node ref="R103" pin="2"/>
+      <node ref="D101" pin="1"/>
+    </net>
+    <net code="14" name="/~TE">
+      <node ref="R104" pin="1"/>
+      <node ref="U101" pin="7"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D102-Pad1)">
+      <node ref="D102" pin="1"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="16" name="/Stat2">
+      <node ref="R102" pin="1"/>
+      <node ref="U101" pin="4"/>
+    </net>
+    <net code="17" name="/VIN">
+      <node ref="U101" pin="1"/>
+      <node ref="P101" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="U101" pin="2"/>
+      <node ref="D102" pin="2"/>
+      <node ref="D101" pin="2"/>
+      <node ref="D103" pin="2"/>
+    </net>
+  </nets>
+</export>
