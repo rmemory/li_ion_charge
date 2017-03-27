@@ -42,6 +42,8 @@ A slightly larger 4.7 uF capacitor, with a 1206 foot print will be used to accom
 
 Rudimentary reset functionality will be provided via a jumper.
 
+Via Stitching (i.e. adding of extra vias between planes) reduces inductance between planes. All conductors have some inductance due to the magnetic field due to the current flowing. The inductance will increase as signal frequency increases. For example, a square wave (data) has many high frequency signals. One via will create a small inductor. More vias reduce the inductance by putting inductors in parallel, thus reducing overall impedance of the signals between planes, thus making sure the signal isn't distorted between planes. Via stitching also helps heat dissapation. 
+
 General KiCad Workflow notes:
 =============================
 
@@ -63,3 +65,8 @@ General KiCad Workflow notes:
 
 
 The overheating feature will not be used, and thus the thermistor will be replaced by a fixed 10k value.
+
+BOM Generation notes:
+=====================
+
+http://og2k.com/content/how-generate-bill-materials-bom-kicad
